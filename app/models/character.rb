@@ -7,7 +7,7 @@ class Character < ActiveRecord::Base
   end
 
   def build_show
-
+    self.shows.name
   end
 
   def build_network
